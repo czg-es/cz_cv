@@ -1077,7 +1077,9 @@ table:hover{
     opacity: 1;
   }
 
-
+.hide{
+    display: none;
+}
   /* CV CIEGO-----.tlf,------a,-----, .picture--------.c7b,--------- 
    .nombre{
     filter: blur(5px);
