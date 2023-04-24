@@ -1,6 +1,6 @@
-var lista_col = ['AliceBlue','FloralWhite','PapayaWhip','LightGoldenRodYellow','LavenderBlush', 'PeachPuff',
-                 'DarkKhaki','DarkSeaGreen','HoneyDew','MintCream','Olive','Thistle','Teal','RosyBrown'];
-var lista_col2 = [ 'Aquamarine','Aqua','red','lime','plum','darkgoldenrod','green','violet','lemonchiffon'];
+var lista_col = ['AliceBlue','FloralWhite','PapayaWhip','LightGoldenRodYellow','LavenderBlush', 'PeachPuff','HoneyDew','MintCream','Thistle'];
+
+var lista_col2 = [ 'Aquamarine','Aqua','red','lime','plum','darkgoldenrod','green','violet','lemonchiffon','DarkKhaki','DarkSeaGreen','Olive','RosyBrown'];
 
 function change_background(value){
     var current_c = lista_col[Math.floor(Math.random()*lista_col.length)];

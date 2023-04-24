@@ -780,7 +780,7 @@ table th {
     padding: 0;
     margin: 0;
 }
-/* IGNORE,TOTAL MESS THIS ONE */
+/* IGNORE */
 .c44 {
     margin-left: 28.3pt;
     text-indent: -18pt;
@@ -1085,3 +1085,44 @@ table:hover{
     filter: blur(5px);
 }
 */
+
+.lang{
+    position: absolute;
+    top:10px;
+    left: 10px;
+    padding: .5rem;
+    cursor: pointer;
+    z-index: 10;
+    filter: drop-shadow(2px 4px 6px black);
+    width: 4rem;
+    height:4rem;
+    animation: rise .5s ease-in;
+
+  }
+.lang2{
+    position: absolute;
+    top:10px;
+    left: 10px;
+    padding: .5rem;
+    cursor: pointer;
+    z-index: 9;
+    width: 4rem;
+    height:4rem;
+    filter: brightness(0.7);
+    animation: drop .5s ease-in;
+    transform: translate(-15px,-15px)
+  }
+
+  #l_img{
+    border-radius: 50%;
+  }
+
+@keyframes rise {
+    from {transform: scale(0.1)}
+    to {transform: scale(1);}
+}
+@keyframes drop {
+    from {transform: scale(1.5) ;}
+    to {transform: translate(-15px,-15px) scale(0.9);
+    }
+}
